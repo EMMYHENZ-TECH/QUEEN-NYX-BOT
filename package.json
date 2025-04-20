@@ -10,8 +10,8 @@
         "media": "PrexzyMedia"
     },
     "scripts": {
-        "code": "node main.js",
-        "start": "node index.js"
+        "start": "node index.js || node main.js"
+        "fix-cache": "yarn cache clean --all"
     },
     "author": "Precious Ayomide",
     "license": "MIT",
